@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  Tests for documented defects (docs/BUG_REPORTS.md). Each test asserts the CORRECT behaviour,
+  so it fails while the bug exists and starts passing once the bug is fixed.
+  Run: mvn clean test -DsuiteXmlFile=known-issues.xml
+-->
+<suite name="SauceDemo Known Issues" verbose="1">
+    <test name="Known Defects">
+        <groups>
+            <run>
+                <include name="known-issues"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.kriti.automation.tests.KnownIssuesTest"/>
+        </classes>
+    </test>
+</suite>

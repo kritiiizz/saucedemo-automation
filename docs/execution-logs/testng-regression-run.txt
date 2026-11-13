@@ -1,0 +1,479 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.kriti.automation:saucedemo-automation >--------------
+[INFO] Building SauceDemo Web Test Automation Framework 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 24469 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to apache.snapshots (https://repository.apache.org/snapshots): Connect to repository.apache.org:443 [repository.apache.org/37.27.138.133] failed: Connect timed out
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml (1.3 kB at 7.9 kB/s)
+Progress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml (3.7 kB at 8.9 kB/s)
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ saucedemo-automation ---
+[INFO] Deleting /Users/krittii/Downloads/saucedemo-automation/target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ saucedemo-automation ---
+[INFO] skip non existing resourceDirectory /Users/krittii/Downloads/saucedemo-automation/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ saucedemo-automation ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 11 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ saucedemo-automation ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ saucedemo-automation ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ saucedemo-automation ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+10:31:59.286 [TestNG-test-UI Tests (TestNG)-2] INFO  AccessControlTest - === Starting protectedPageRequiresLogin
+10:31:59.286 [TestNG-test-UI Tests (TestNG)-3] INFO  CartTest - === Starting addSingleProductUpdatesBadge
+10:31:59.286 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting invalidLoginShowsError
+10:31:59.292 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:31:59.292 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:31:59.292 [TestNG-test-UI Tests (TestNG)-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:18.879 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:18.879 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:19.593 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+10:32:19.593 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:20.109 [TestNG-test-UI Tests (TestNG)-2] INFO  AccessControlTest - === Starting protectedPageRequiresLogin
+10:32:20.110 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:20.323 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:21.130 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting invalidLoginShowsError
+10:32:21.130 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:21.586 [TestNG-test-UI Tests (TestNG)-3] INFO  CartTest - === Starting cartContainsAddedProducts
+10:32:21.587 [TestNG-test-UI Tests (TestNG)-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:24.648 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:32:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:25.082 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:25.935 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'locked_out_user'
+10:32:26.091 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+10:32:26.186 [TestNG-test-UI Tests (TestNG)-2] INFO  AccessControlTest - === Starting protectedPageRequiresLogin
+10:32:26.187 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:26.541 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:26.556 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting invalidLoginShowsError
+10:32:26.556 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:26.657 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:32:27.048 [TestNG-test-UI Tests (TestNG)-3] INFO  CartTest - === Starting cartPersistsAfterLogoutAndLogin
+10:32:27.048 [TestNG-test-UI Tests (TestNG)-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:29.516 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:32:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:30.827 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as ''
+10:32:31.081 [TestNG-test-UI Tests (TestNG)-2] INFO  SortTest - === Starting sortByNameAscending
+10:32:31.082 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:31.126 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:31.501 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting invalidLoginShowsError
+10:32:31.501 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:32.042 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+Nov 13, 2026 10:32:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:33.596 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:33.742 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:33.754 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:33.974 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Logging out
+10:32:34.425 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Logging in as 'standard_user'
+10:32:34.603 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:34.650 [TestNG-test-UI Tests (TestNG)-2] INFO  InventoryPage - Sort by: Name (Z to A)
+10:32:34.665 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+10:32:35.173 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting userCanLogout
+10:32:35.173 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:35.240 [TestNG-test-UI Tests (TestNG)-3] INFO  CartTest - === Starting removeProductFromCartPage
+10:32:35.240 [TestNG-test-UI Tests (TestNG)-3] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:35.318 [TestNG-test-UI Tests (TestNG)-2] INFO  InventoryPage - Sort by: Name (A to Z)
+10:32:35.636 [TestNG-test-UI Tests (TestNG)-2] INFO  SortTest - === Starting sortByNameDescending
+10:32:35.636 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:37.816 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:37.816 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:38.300 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:38.495 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:38.674 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+10:32:38.892 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Logging out
+10:32:38.988 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Logging in as 'standard_user'
+10:32:39.193 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:39.353 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:32:39.585 [TestNG-test-UI Tests (TestNG)-2] INFO  InventoryPage - Sort by: Name (Z to A)
+10:32:39.679 [TestNG-test-UI Tests (TestNG)-3] INFO  CartPage - Remove from cart page: Sauce Labs Backpack
+10:32:39.867 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginTest - === Starting validUserCanLogin
+10:32:39.868 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:40.028 [TestNG-test-UI Tests (TestNG)-2] INFO  SortTest - === Starting sortByPriceAscending
+10:32:40.029 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:40.034 [TestNG-test-UI Tests (TestNG)-3] INFO  CartTest - === Starting removeProductFromInventory
+10:32:40.035 [TestNG-test-UI Tests (TestNG)-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:42.232 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:42.259 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:42.263 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:42.825 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Logging in as 'standard_user'
+10:32:42.865 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:42.978 [TestNG-test-UI Tests (TestNG)-3] INFO  LoginPage - Logging in as 'standard_user'
+10:32:43.069 [TestNG-test-UI Tests (TestNG)-2] INFO  InventoryPage - Sort by: Price (low to high)
+10:32:43.642 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:43.700 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting completeOrderEndToEnd
+10:32:43.700 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:43.839 [TestNG-test-UI Tests (TestNG)-2] INFO  SortTest - === Starting sortByPriceDescending
+10:32:43.840 [TestNG-test-UI Tests (TestNG)-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:32:43.912 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:32:44.027 [TestNG-test-UI Tests (TestNG)-3] INFO  InventoryPage - Remove from cart: Sauce Labs Backpack
+Nov 13, 2026 10:32:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:46.261 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:32:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:46.647 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:47.330 [TestNG-test-UI Tests (TestNG)-2] INFO  LoginPage - Logging in as 'standard_user'
+10:32:47.491 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:47.549 [TestNG-test-UI Tests (TestNG)-2] INFO  InventoryPage - Sort by: Price (high to low)
+10:32:47.742 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:47.824 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:32:48.510 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / 'Sharma' / '700000'
+10:32:48.710 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutOverviewPage - Finishing order
+10:32:48.905 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting overviewListsCartProducts
+10:32:48.905 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:50.806 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:51.715 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:51.881 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:52.476 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:32:52.625 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / 'Sharma' / '700000'
+10:32:52.904 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting requiredFieldsAreValidated
+10:32:52.904 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:54.168 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:54.887 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:55.059 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:55.224 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: '' / 'Sharma' / '700000'
+10:32:55.504 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting requiredFieldsAreValidated
+10:32:55.504 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:32:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:32:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:32:56.816 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:32:57.450 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:32:57.622 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:32:58.830 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / '' / '700000'
+10:32:59.120 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting requiredFieldsAreValidated
+10:32:59.120 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:00.418 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:01.094 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:33:01.259 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:33:01.945 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / 'Sharma' / ''
+10:33:02.232 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutTest - === Starting totalsAreCalculatedCorrectly
+10:33:02.232 [TestNG-test-UI Tests (TestNG)-1] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:03.545 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:04.181 [TestNG-test-UI Tests (TestNG)-1] INFO  LoginPage - Logging in as 'standard_user'
+10:33:04.363 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:33:04.959 [TestNG-test-UI Tests (TestNG)-1] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+10:33:05.610 [TestNG-test-UI Tests (TestNG)-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / 'Sharma' / '700000'
+
+@cart @regression
+Scenario: Removing a product from the cart page             # src/test/resources/features/cart.feature:24
+
+@cart @regression
+Scenario: Removing a product on the products page updates the badge # src/test/resources/features/cart.feature:17
+
+@cart @smoke
+Scenario: Adding products updates the cart badge # src/test/resources/features/cart.feature:11
+10:33:06.372 [TestNG-PoolService-2] INFO  Hooks - === Scenario: Removing a product on the products page updates the badge
+10:33:06.372 [TestNG-PoolService-1] INFO  Hooks - === Scenario: Adding products updates the cart badge
+10:33:06.372 [TestNG-PoolService-3] INFO  Hooks - === Scenario: Removing a product from the cart page
+10:33:06.372 [TestNG-PoolService-1] INFO  DriverFactory - Starting chrome (headless=false)
+10:33:06.372 [TestNG-PoolService-2] INFO  DriverFactory - Starting chrome (headless=false)
+10:33:06.372 [TestNG-PoolService-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:33:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:09.278 [TestNG-PoolService-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:09.278 [TestNG-PoolService-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:09.278 [TestNG-PoolService-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:10.089 [TestNG-PoolService-3] INFO  LoginPage - Logging in as 'standard_user'
+10:33:10.106 [TestNG-PoolService-1] INFO  LoginPage - Logging in as 'standard_user'
+  Given I am logged in as "standard_user"                   # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:10.276 [TestNG-PoolService-3] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+  Given I am logged in as "standard_user"        # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:10.290 [TestNG-PoolService-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+10:33:10.345 [TestNG-PoolService-2] INFO  LoginPage - Logging in as 'standard_user'
+  When I add "Sauce Labs Backpack" to the cart              # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:10.362 [TestNG-PoolService-3] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+  When I add "Sauce Labs Backpack" to the cart   # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:10.378 [TestNG-PoolService-1] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+  And I add "Sauce Labs Bike Light" to the cart             # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+  And I add "Sauce Labs Bike Light" to the cart  # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+  Then the cart badge should show 2              # com.kriti.automation.bdd.CartSteps.theCartBadgeShouldShow(int)
+  Given I am logged in as "standard_user"                           # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:10.630 [TestNG-PoolService-2] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+
+@checkout @smoke
+Scenario: Customer completes a purchase                          # src/test/resources/features/checkout.feature:11
+10:33:10.638 [TestNG-PoolService-1] INFO  Hooks - === Scenario: Customer completes a purchase
+10:33:10.638 [TestNG-PoolService-1] INFO  DriverFactory - Starting chrome (headless=false)
+  When I add "Sauce Labs Backpack" to the cart                      # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:10.733 [TestNG-PoolService-2] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+  And I add "Sauce Labs Bike Light" to the cart                     # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:10.786 [TestNG-PoolService-2] INFO  InventoryPage - Remove from cart: Sauce Labs Backpack
+  And I remove "Sauce Labs Backpack" from the products page         # com.kriti.automation.bdd.CartSteps.iRemoveFromTheProductsPage(java.lang.String)
+  Then the cart badge should show 1                                 # com.kriti.automation.bdd.CartSteps.theCartBadgeShouldShow(int)
+
+@checkout @regression
+Scenario: Checkout requires a first name                                 # src/test/resources/features/checkout.feature:20
+10:33:10.949 [TestNG-PoolService-2] INFO  Hooks - === Scenario: Checkout requires a first name
+10:33:10.949 [TestNG-PoolService-2] INFO  DriverFactory - Starting chrome (headless=false)
+  And I open the cart                                       # com.kriti.automation.bdd.CartSteps.iOpenTheCart()
+10:33:10.991 [TestNG-PoolService-3] INFO  CartPage - Remove from cart page: Sauce Labs Backpack
+  And I remove "Sauce Labs Backpack" from the cart          # com.kriti.automation.bdd.CartSteps.iRemoveFromTheCart(java.lang.String)
+  Then the cart should contain only "Sauce Labs Bike Light" # com.kriti.automation.bdd.CartSteps.theCartShouldContainOnly(java.lang.String)
+
+@login @smoke
+Scenario: Successful login with valid credentials                         # src/test/resources/features/login.feature:11
+10:33:11.190 [TestNG-PoolService-3] INFO  Hooks - === Scenario: Successful login with valid credentials
+10:33:11.191 [TestNG-PoolService-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:12.857 [TestNG-PoolService-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:33:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:13.549 [TestNG-PoolService-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:13.786 [TestNG-PoolService-1] INFO  LoginPage - Logging in as 'standard_user'
+Nov 13, 2026 10:33:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:14.174 [TestNG-PoolService-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+  Given I am logged in as "standard_user"                        # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:14.353 [TestNG-PoolService-1] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+  When I add "Sauce Labs Backpack" to the cart                   # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:14.533 [TestNG-PoolService-1] INFO  InventoryPage - Add to cart: Sauce Labs Bike Light
+  And I add "Sauce Labs Bike Light" to the cart                  # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+10:33:14.768 [TestNG-PoolService-2] INFO  LoginPage - Logging in as 'standard_user'
+10:33:14.784 [TestNG-PoolService-1] INFO  CheckoutInfoPage - Customer details: 'Kriti' / 'Sharma' / '700000'
+  And I proceed to checkout with "Kriti", "Sharma", "700000"     # com.kriti.automation.bdd.CheckoutSteps.iProceedToCheckoutWith(java.lang.String,java.lang.String,java.lang.String)
+  Given I am logged in as "standard_user"                                # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:15.020 [TestNG-PoolService-2] INFO  InventoryPage - Add to cart: Sauce Labs Backpack
+  When I add "Sauce Labs Backpack" to the cart                           # com.kriti.automation.bdd.CartSteps.iAddToTheCart(java.lang.String)
+  Then the order total should equal item total plus 8% tax       # com.kriti.automation.bdd.CheckoutSteps.theOrderTotalShouldBeCorrect()
+10:33:15.126 [TestNG-PoolService-1] INFO  CheckoutOverviewPage - Finishing order
+  When I finish the order                                        # com.kriti.automation.bdd.CheckoutSteps.iFinishTheOrder()
+  Given I am on the login page                                            # com.kriti.automation.bdd.LoginSteps.iAmOnTheLoginPage()
+10:33:15.221 [TestNG-PoolService-3] INFO  LoginPage - Logging in as 'standard_user'
+  Then I should see the confirmation "Thank you for your order!" # com.kriti.automation.bdd.CheckoutSteps.iShouldSeeTheConfirmation(java.lang.String)
+10:33:15.295 [TestNG-PoolService-2] INFO  CheckoutInfoPage - Customer details: '' / 'Sharma' / '700000'
+
+@login @regression
+Scenario Outline: Login is rejected for invalid credentials                       # src/test/resources/features/login.feature:22
+10:33:15.367 [TestNG-PoolService-1] INFO  Hooks - === Scenario: Login is rejected for invalid credentials
+10:33:15.367 [TestNG-PoolService-1] INFO  DriverFactory - Starting chrome (headless=false)
+  And I proceed to checkout with "", "Sharma", "700000"                  # com.kriti.automation.bdd.CheckoutSteps.iProceedToCheckoutWith(java.lang.String,java.lang.String,java.lang.String)
+  When I log in with username "standard_user" and password "secret_sauce" # com.kriti.automation.bdd.LoginSteps.iLogInWith(java.lang.String,java.lang.String)
+  Then I should see a checkout error containing "First Name is required" # com.kriti.automation.bdd.CheckoutSteps.iShouldSeeACheckoutError(java.lang.String)
+  Then I should see the products page                                     # com.kriti.automation.bdd.LoginSteps.iShouldSeeTheProductsPage()
+
+@login @regression
+Scenario Outline: Login is rejected for invalid credentials                  # src/test/resources/features/login.feature:23
+10:33:15.745 [TestNG-PoolService-2] INFO  Hooks - === Scenario: Login is rejected for invalid credentials
+10:33:15.745 [TestNG-PoolService-2] INFO  DriverFactory - Starting chrome (headless=false)
+
+@login @regression
+Scenario Outline: Login is rejected for invalid credentials         # src/test/resources/features/login.feature:24
+10:33:15.798 [TestNG-PoolService-3] INFO  Hooks - === Scenario: Login is rejected for invalid credentials
+10:33:15.799 [TestNG-PoolService-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:17.746 [TestNG-PoolService-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:18.164 [TestNG-PoolService-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:18.192 [TestNG-PoolService-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+  Given I am on the login page                                                    # com.kriti.automation.bdd.LoginSteps.iAmOnTheLoginPage()
+10:33:18.642 [TestNG-PoolService-1] INFO  LoginPage - Logging in as 'standard_user'
+  When I log in with username "standard_user" and password "wrong_pass"           # com.kriti.automation.bdd.LoginSteps.iLogInWith(java.lang.String,java.lang.String)
+  Then I should see a login error containing "Username and password do not match" # com.kriti.automation.bdd.LoginSteps.iShouldSeeALoginError(java.lang.String)
+  Given I am on the login page                                               # com.kriti.automation.bdd.LoginSteps.iAmOnTheLoginPage()
+10:33:18.943 [TestNG-PoolService-2] INFO  LoginPage - Logging in as 'locked_out_user'
+
+@login @regression
+Scenario Outline: Login is rejected for invalid credentials         # src/test/resources/features/login.feature:25
+10:33:18.979 [TestNG-PoolService-1] INFO  Hooks - === Scenario: Login is rejected for invalid credentials
+10:33:18.980 [TestNG-PoolService-1] INFO  DriverFactory - Starting chrome (headless=false)
+  Given I am on the login page                                      # com.kriti.automation.bdd.LoginSteps.iAmOnTheLoginPage()
+10:33:19.098 [TestNG-PoolService-3] INFO  LoginPage - Logging in as ''
+  When I log in with username "locked_out_user" and password "secret_sauce"  # com.kriti.automation.bdd.LoginSteps.iLogInWith(java.lang.String,java.lang.String)
+  Then I should see a login error containing "this user has been locked out" # com.kriti.automation.bdd.LoginSteps.iShouldSeeALoginError(java.lang.String)
+
+@sorting @regression
+Scenario Outline: Products are sorted by the chosen option       # src/test/resources/features/sorting.feature:19
+10:33:19.465 [TestNG-PoolService-2] INFO  Hooks - === Scenario: Products are sorted by the chosen option
+10:33:19.466 [TestNG-PoolService-2] INFO  DriverFactory - Starting chrome (headless=false)
+  When I log in with username "" and password "secret_sauce"        # com.kriti.automation.bdd.LoginSteps.iLogInWith(java.lang.String,java.lang.String)
+  Then I should see a login error containing "Username is required" # com.kriti.automation.bdd.LoginSteps.iShouldSeeALoginError(java.lang.String)
+
+@sorting @regression
+Scenario Outline: Products are sorted by the chosen option       # src/test/resources/features/sorting.feature:20
+10:33:19.641 [TestNG-PoolService-3] INFO  Hooks - === Scenario: Products are sorted by the chosen option
+10:33:19.641 [TestNG-PoolService-3] INFO  DriverFactory - Starting chrome (headless=false)
+Nov 13, 2026 10:33:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Nov 13, 2026 10:33:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:21.610 [TestNG-PoolService-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:21.973 [TestNG-PoolService-2] INFO  LoginPage - Opening https://www.saucedemo.com/
+Nov 13, 2026 10:33:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:22.423 [TestNG-PoolService-3] INFO  LoginPage - Opening https://www.saucedemo.com/
+  Given I am on the login page                                      # com.kriti.automation.bdd.LoginSteps.iAmOnTheLoginPage()
+10:33:22.525 [TestNG-PoolService-1] INFO  LoginPage - Logging in as 'standard_user'
+10:33:22.651 [TestNG-PoolService-2] INFO  LoginPage - Logging in as 'standard_user'
+  When I log in with username "standard_user" and password ""       # com.kriti.automation.bdd.LoginSteps.iLogInWith(java.lang.String,java.lang.String)
+  Then I should see a login error containing "Password is required" # com.kriti.automation.bdd.LoginSteps.iShouldSeeALoginError(java.lang.String)
+
+@sorting @regression
+Scenario Outline: Products are sorted by the chosen option        # src/test/resources/features/sorting.feature:21
+10:33:22.965 [TestNG-PoolService-1] INFO  Hooks - === Scenario: Products are sorted by the chosen option
+10:33:22.965 [TestNG-PoolService-1] INFO  DriverFactory - Starting chrome (headless=false)
+  Given I am logged in as "standard_user"                        # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:22.975 [TestNG-PoolService-2] INFO  InventoryPage - Sort by: Name (Z to A)
+10:33:23.096 [TestNG-PoolService-3] INFO  LoginPage - Logging in as 'standard_user'
+  When I sort the products by "Name (Z to A)"                    # com.kriti.automation.bdd.SortSteps.iSortTheProductsBy(java.lang.String)
+  Then the products should be sorted by name in descending order # com.kriti.automation.bdd.SortSteps.theProductsShouldBeSorted(java.lang.String,java.lang.String)
+  Given I am logged in as "standard_user"                        # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:23.454 [TestNG-PoolService-3] INFO  InventoryPage - Sort by: Price (low to high)
+  When I sort the products by "Price (low to high)"              # com.kriti.automation.bdd.SortSteps.iSortTheProductsBy(java.lang.String)
+  Then the products should be sorted by price in ascending order # com.kriti.automation.bdd.SortSteps.theProductsShouldBeSorted(java.lang.String,java.lang.String)
+Nov 13, 2026 10:33:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 13, 2026 10:33:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.52. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+10:33:25.066 [TestNG-PoolService-1] INFO  LoginPage - Opening https://www.saucedemo.com/
+10:33:25.694 [TestNG-PoolService-1] INFO  LoginPage - Logging in as 'standard_user'
+  Given I am logged in as "standard_user"                         # com.kriti.automation.bdd.LoginSteps.iAmLoggedInAs(java.lang.String)
+10:33:25.858 [TestNG-PoolService-1] INFO  InventoryPage - Sort by: Price (high to low)
+  When I sort the products by "Price (high to low)"               # com.kriti.automation.bdd.SortSteps.iSortTheProductsBy(java.lang.String)
+  Then the products should be sorted by price in descending order # com.kriti.automation.bdd.SortSteps.theProductsShouldBeSorted(java.lang.String,java.lang.String)
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.30 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:02 min
+[INFO] Finished at: 2026-11-13T10:33:26+07:00
+[INFO] ------------------------------------------------------------------------

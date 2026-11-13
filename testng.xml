@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- data-provider-thread-count controls how many Cucumber scenarios run at once. -->
+<suite name="SauceDemo Full Regression" verbose="1" data-provider-thread-count="3">
+    <test name="UI Tests (TestNG)" parallel="classes" thread-count="3">
+        <groups>
+            <run>
+                <!-- Known-defect tests are expected to fail; run them with -DsuiteXmlFile=known-issues.xml -->
+                <exclude name="known-issues"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.kriti.automation.tests.LoginTest"/>
+            <class name="com.kriti.automation.tests.AccessControlTest"/>
+            <class name="com.kriti.automation.tests.CartTest"/>
+            <class name="com.kriti.automation.tests.SortTest"/>
+            <class name="com.kriti.automation.tests.CheckoutTest"/>
+        </classes>
+    </test>
+    <test name="BDD Scenarios (Cucumber)">
+        <classes>
+            <class name="com.kriti.automation.runners.CucumberRunner"/>
+        </classes>
+    </test>
+</suite>
